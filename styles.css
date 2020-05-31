@@ -819,7 +819,7 @@ transition: 0.2s;
 }
 }
 
-@media(min-height: 540px) {
+@media(min-height: 540px) and (min-device-aspect-ratio: 16/9) {
 
   .btn_black_0 {
     transform: translateY(-190%) translateX(-395%);
